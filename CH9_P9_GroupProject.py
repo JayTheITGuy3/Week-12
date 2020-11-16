@@ -25,7 +25,7 @@ class CardDealing(EasyFrame):
         if len(self) == 0:
            return None
         else:
-           return self.cards.pop(0) 
+           return self.card1.pop(0) 
 
 
 def main():
